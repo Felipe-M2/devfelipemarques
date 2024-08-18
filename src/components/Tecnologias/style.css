@@ -1,0 +1,141 @@
+.tecnologias{
+    width: 100%;
+    padding: 99px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: var(--background);
+    color: var(--cor-font-geral);
+}
+
+.infoTecnologias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introTecnologias,
+.cardTecnologias{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introTecnologias h1{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.cardTecnologias{
+    border: 1px solid var(--cor-font-geral);
+}
+
+.cardTech{
+    width: 249px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTech:nth-child(1){
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.cardTech:nth-child(2){
+    border-left: 1px solid var(--cor-font-geral);
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.cardTech:nth-child(4){
+    border-left: 1px solid var(--cor-font-geral);
+}
+
+.cardTech img{
+    width: 100px;
+}
+
+.techImg{
+    width: 60px !important;
+}
+
+.infoModelos{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.quadroModelo{
+    min-width: 300px;
+    min-height: 300px;
+    position: relative;
+    border: 2px solid var(--cor-font-geral);
+    overflow: hidden;
+}
+
+.molduraModelos{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    border: 2px solid var(--cor-font-geral);
+}
+
+.molduraModelos:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.molduraModelos:nth-child(2){
+    transform: rotate(45deg);
+    width: 250px;
+    height: 250px;
+    top: 25px;
+    left: 25px;
+}
+
+.molduraModelos:nth-child(3){
+    width: 250px;
+    height: 250px;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnModelos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnModelos button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--cor-font-geral);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btnModelos button svg{
+    fill: var(--background)
+}
+
+.btnModelos button:hover{
+    background-color: var(--background);
+    border: 1px solid var(--cor-font-geral);
+}
+
+.btnModelos button:hover svg{
+    fill: var(--cor-font-geral)
+}
+
+.infoModeloDescricao{
+    width: 400px;
+}

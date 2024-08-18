@@ -1,0 +1,118 @@
+.portfolio{
+    background-color: var(--background);
+    color: var(--cor-font-geral);
+    padding: 0 99px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.infoProjeto{
+    border-left: 1px solid var(--cor-font-geral);
+    /* border-right: 1px solid var(--cor-font-geral); */
+    max-width: 50%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tituloInfoProjeto{
+    color: var(--cor-font-titulo);
+    font-size: 2.3rem;
+    font-family: 'santello';
+}
+
+.infoProjetoAtv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.nomeProjeto{
+    font-family: 'santello';
+    font-size: 1.6rem;
+}
+
+.descricaoProjeto{
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+
+.btnProjeto{
+    width: 180px;
+    height: 50px;
+    background: none;
+    color: var(--cor-font-geral);
+    border: none;
+    border-top: 1px solid var(--cor-font-geral);
+    border-bottom: 1px solid var(--cor-font-geral);
+    border-right: 1px solid var(--cor-font-geral);
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'santello';
+}
+
+.btnProjeto:hover{
+    background-color: var(--cor-font-geral);
+    color: var(--background)
+}
+
+.btnProjeto:hover svg{
+    fill: var(--background) !important;
+}
+
+.btnProximoProjeto{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.btnProximoProjeto button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    border: 1px solid var(--cor-font-geral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnProximoProjeto button:hover{
+    background: var(--cor-font-geral);
+}
+
+.btnProximoProjeto button:hover svg{
+    fill: var(--background)
+}
+
+.imgProjeto{
+    max-width: 50%;
+    min-width: 500px;
+    position: relative;
+    border-right: 1px solid var(--cor-font-geral);
+    padding: 40px 20px;
+}
+
+.backgroundImgProjeto{
+    width: 100%;
+}
+
+.imgCenterProjeto{
+    position: absolute;
+    max-width: 500px;
+    width: 90%;
+    height: 200px;
+    background: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

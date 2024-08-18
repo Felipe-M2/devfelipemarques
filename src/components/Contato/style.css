@@ -1,0 +1,173 @@
+.contato{
+    background-color: var(--background);
+    width: 100%;
+}
+
+.linha1Contato,
+.linha2Contato,
+.linha3Contato{
+    display: flex;
+}
+
+.linha1Contato div:nth-child(1){
+    min-width: 100px;
+    height: 100px;
+    border-right: 1px solid var(--cor-font-geral);
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.divTituloContato{
+    min-width: 300px;
+    height: 100px;
+    border-right: 1px solid var(--cor-font-geral);
+    border-bottom: 1px solid var(--cor-font-geral);
+    font-size: 2rem;
+    font-family: 'santello';
+    display: flex;
+    align-items: end;
+    color: var(--cor-font-titulo);
+}
+
+.linha1Contato div:nth-child(3){
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.linha2Contato div:nth-child(1){
+    min-width: 100px;
+    border-right: 1px solid var(--cor-font-geral);
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.imgContato{
+    border-bottom: 1px solid var(--cor-font-geral);
+    border-right: 1px solid var(--cor-font-geral);
+    min-width: 300px;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+}
+
+.imgContato img{
+    width: 300px;
+}
+
+.formContato{
+    border-bottom: 1px solid var(--cor-font-geral);
+    width: 100%;
+}
+
+.linha3Contato div:nth-child(1){
+    min-width: 100px;
+    min-height: 100px;
+    border-right: 1px solid var(--cor-font-geral);
+}
+
+.linha3Contato div:nth-child(2){
+    min-width: 300px;
+    min-height: 100px;
+    border-right: 1px solid var(--cor-font-geral);
+}
+
+.formContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.socialContato,
+.iconSocialContato,
+.infoSocial{
+    border: none !important;
+}
+
+.socialContato{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.iconSocialContato ul{
+    display: flex;
+    gap: 10px;
+}
+
+.iconSocialContato ul li svg{
+    fill: var(--cor-font-geral);
+}
+
+.infoSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-font-geral)
+}
+
+.infoSocial h1{
+    font-size: clamp(.2rem, 2.5vw, 1.3rem)
+}
+
+.formSection{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.labelForm{
+    max-width: 250px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--cor-font-geral);
+    position: relative;
+    color: var(--cor-font-geral);
+}
+
+.labelForm p{
+    height: 20px;
+}
+
+.labelForm input,
+.labelForm textarea{
+    min-height: 30px;
+    max-height: 30px;
+    min-width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--cor-font-geral);
+    opacity: .7;
+}
+
+.formSection button{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    gap: 10px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--cor-font-geral);
+    color: var(--cor-font-geral);
+}
+
+.formSection button:hover{
+    background-color: var(--cor-font-geral);
+    color: var(--background);
+}
+
+.formContato img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}

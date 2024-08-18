@@ -1,0 +1,55 @@
+.topo{
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.topo img{
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.menuHora{
+    background-color: var(--cor-font-geral);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    width: 140px;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    border-radius: 20px;
+}
+
+.menuHora div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: var(--background)
+}
+
+.tituloTopo{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.tituloTopo > h1{
+    color:  var(--cor-font-geral);
+    font-size: 2rem;
+}
+
+.nomeLogo{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

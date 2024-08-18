@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'santello';
+    src: url(../public/SANTELLO.ttf);
+}
+
+@font-face {
+    font-family: 'garet-light';
+    src: url(../public/Garet-Book.ttf);
+}
+
+@font-face {
+    font-family: 'garet-bold';
+    src: url(../public/Garet-Heavy.ttf);
+}
+

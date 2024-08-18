@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'garet-light';
+}
+
+:root{
+  --background: #2F3030;
+  --cor-font-titulo: #F4AC4F;
+  --cor-font-geral: #C2C2C2;
+}

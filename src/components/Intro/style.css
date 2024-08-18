@@ -1,0 +1,138 @@
+.intro{
+    background-color: var(--background);
+    color: var(--cor-font-geral);
+}
+
+.linha1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.linha1 > .cardIntroMenor:nth-child(1),
+.linha2 > .cardIntroMenor:nth-child(1),
+.linha3 > .cardIntroMenor:nth-child(1){
+    border-right: 1px solid var(--cor-font-geral);
+}
+
+.cardIntroMenor{
+    min-width: 100px;
+}
+
+.cardIntro{
+    width: 100%;
+    border-right: 1px solid var(--cor-font-geral);
+}
+
+.cardIntroTitulo{
+    font-size: clamp(1rem, 3.3vw, 2.5rem);
+    position: relative;
+}
+
+.cardIntroTitulo h1{
+    position: absolute;
+    width: 55vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cardIntroBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardIntroBtn button{
+    width: 100%;
+    height: 70px;
+    font-size: 1.3rem;
+    background: none;
+    border: 1px solid var(--cor-font-geral);
+    color: var(--cor-font-geral);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cardIntroBtn button:hover{
+    background-color: var(--cor-font-geral);
+    color: var(--background);
+}
+
+.linha2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    border-bottom: 1px solid var(--cor-font-geral);
+}
+
+.linha2 > .cardIntroMenor{
+    overflow: hidden;
+}
+
+.linha2 > .cardIntro{
+    position: relative;
+    overflow: hidden;
+}
+
+.linha2 > .cardIntro > img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+ 
+.linha2 > .cardIntro:hover img{
+    display: block;
+}
+
+.indicacaoIntro{
+    position: relative;
+}
+
+.indicacaoIntro > img{
+    display: block !important;
+    position: absolute;
+    top: 12px !important;
+    left: 17px !important;
+}
+
+.infoIntroCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infoIntroCard h1{
+    font-size: 1.4rem;
+}
+
+.infoIntroCard p{
+    width: 100%;
+    height: 100px;
+    font-size: clamp(.5rem, 2vw, 1rem);
+}
+
+.linha2 > .cardIntro{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 20px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.linha2 > .cardIntro:hover{
+    gap: 50px;
+}
+
+.linha3{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid var(--cor-font-geral);
+}

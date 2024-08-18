@@ -1,0 +1,126 @@
+.sobre{
+    background-color: var(--background);
+    color: var(--cor-font-geral);
+    padding: 0 99px;
+    border-bottom: 1px solid var(--cor-font-geral);
+    display: flex;
+    height: 700px;
+}
+
+.menuSobre{
+    max-width: 50%;
+    width: 100%;
+    border-left: 1px solid var(--cor-font-geral);
+    border-right: 1px solid var(--cor-font-geral);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 20px 0;
+}
+
+.menuSobre > h1{
+    font-size: 2.3rem;
+    color: var(--cor-font-titulo);
+    font-family: 'santello';
+}
+
+.navMenuSobre{
+    width: 100%;
+    border-top: 1px solid var(--cor-font-geral);
+    border-bottom: 1px solid var(--cor-font-geral);
+    padding: 10px 0;
+}
+
+.navMenuSobre ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.navMenuSobre ul li{
+    cursor: pointer;
+}
+
+.ciculoNav{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--cor-font-geral);
+    border-radius: 50%;
+    left: 140px;
+    top: 5px;
+}
+
+.infoSobre{
+    border-right: 1px solid var(--cor-font-geral);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.infoSobre img{
+    width: 400px;
+}
+
+.secaoSobreInfo{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secaoSobreInfo > h1{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-family: 'santello';
+    color: var(--cor-font-titulo);
+}
+
+.cardInfoSobre{
+    max-width: 250px;
+    width: 100%;
+    position: relative;
+    padding: 40px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--cor-font-geral);
+}
+
+.cardInfoSobre:nth-child(2){
+    position: absolute;
+    left: 270px;
+    top: 50px;
+    transform: rotate(10deg);
+    transition: 300ms ease-in-out;
+}
+
+.cardInfoSobre:nth-child(2):hover{
+    transform: rotate(0);
+    left: 290px;
+}
+
+.cardInfoSobre:nth-child(3){
+    position: absolute;
+    left: 270px;
+    top: 290px;
+    transform: rotate(10deg);
+    transition: 300ms ease-in-out;
+}
+
+.cardInfoSobre:nth-child(3):hover{
+    transform: rotate(0);
+    left: 290px;
+}
+
+.cardInfoSobre h1{
+    font-family: 'santello';
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
