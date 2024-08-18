@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/devfelipemarques" exact element={<PortfolioPage />} />
+        <Route path="/" exact element={<PortfolioPage />} />
       </Routes>
     </BrowserRouter>
   )
