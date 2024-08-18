@@ -7,10 +7,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/devfelipemarques" exact Component={PortfolioPage} />
+        <Route path="/devfelipemarques" exact element={<PortfolioPage />} />
       </Routes>
     </BrowserRouter>
   )
 }
 
-export default App
+export default App;
