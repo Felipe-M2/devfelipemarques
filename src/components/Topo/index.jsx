@@ -3,6 +3,7 @@ import './style.css';
 
 import Background from '../../assets/backgroundTopo.svg';
 import Nome from '../../assets/nome.svg';
+import Video from '../../assets/videoBack.mp4';
 
 const Topo = () => {
 
@@ -19,7 +20,16 @@ const Topo = () => {
     return (
         <section className="topo">
 
-            <img src={Background} alt="" srcset="" />
+            {/* <img src={Background} alt="" srcset="" /> */}
+
+            <video
+                autoPlay
+                controls={false}
+                muted
+                loop
+            >
+                <source src={Video} />
+            </video>
 
             <div className="menuHora">
                 <div>

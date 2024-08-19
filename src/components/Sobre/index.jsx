@@ -17,6 +17,10 @@ const Sobre = ()=>{
                     <ul>
                         <div 
                             className="ciculoNav"
+                            style={{
+                                top: sobre ? "5px" : "47px",
+                                left: sobre ? "140px" : "130px"
+                            }}
                         ></div>
                         <li onClick={()=>setSobre(true)}>Me conheça!</li>
                         <li onClick={()=>setSobre(false)}>Habilidades</li>

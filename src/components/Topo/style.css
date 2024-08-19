@@ -5,13 +5,14 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    background-color: var(--background);
 }
 
-.topo img{
+.topo video{
     position: absolute;
     max-width: 100%;
     width: 100%;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .menuHora{
