@@ -15,11 +15,11 @@ function PortfolioPage() {
     <>
       <Topo />
       <Intro />
-      <Portfolio />
+      {/* <Portfolio />
       <Sobre />
       <Tecnologias />
       <Contato />
-      <Rodape />
+      <Rodape /> */}
     </>
   )
 }

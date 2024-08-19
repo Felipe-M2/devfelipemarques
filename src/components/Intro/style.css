@@ -1,49 +1,49 @@
-.intro{
+.intro {
     background-color: var(--background);
     color: var(--cor-font-geral);
 }
 
-.linha1{
+.linha1 {
     width: 100%;
     height: 450px;
     display: flex;
     border-bottom: 1px solid var(--cor-font-geral);
 }
 
-.linha1 > .cardIntroMenor:nth-child(1),
-.linha2 > .cardIntroMenor:nth-child(1),
-.linha3 > .cardIntroMenor:nth-child(1){
+.linha1>.cardIntroMenor:nth-child(1),
+.linha2>.cardIntroMenor:nth-child(1),
+.linha3>.cardIntroMenor:nth-child(1) {
     border-right: 1px solid var(--cor-font-geral);
 }
 
-.cardIntroMenor{
+.cardIntroMenor {
     min-width: 100px;
 }
 
-.cardIntro{
+.cardIntro {
     width: 100%;
     border-right: 1px solid var(--cor-font-geral);
 }
 
-.cardIntroTitulo{
+.cardIntroTitulo {
     font-size: clamp(1rem, 3.3vw, 2.5rem);
     position: relative;
 }
 
-.cardIntroTitulo h1{
+.cardIntroTitulo h1 {
     position: absolute;
     width: 55vw;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.cardIntroBtn{
+.cardIntroBtn {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.cardIntroBtn button{
+.cardIntroBtn button {
     width: 100%;
     height: 70px;
     font-size: 1.3rem;
@@ -57,67 +57,67 @@
     gap: 5px;
 }
 
-.cardIntroBtn button:hover{
+.cardIntroBtn button:hover {
     background-color: var(--cor-font-geral);
     color: var(--background);
 }
 
-.linha2{
+.linha2 {
     width: 100%;
     height: 300px;
     display: flex;
     border-bottom: 1px solid var(--cor-font-geral);
 }
 
-.linha2 > .cardIntroMenor{
+.linha2>.cardIntroMenor {
     overflow: hidden;
 }
 
-.linha2 > .cardIntro{
+.linha2>.cardIntro {
     position: relative;
     overflow: hidden;
 }
 
-.linha2 > .cardIntro > img{
+.linha2>.cardIntro>img {
     position: absolute;
     width: 100%;
     top: 0;
     left: 0;
     display: none;
 }
- 
-.linha2 > .cardIntro:hover img{
+
+.linha2>.cardIntro:hover img {
     display: block;
 }
 
-.indicacaoIntro{
+.indicacaoIntro {
     position: relative;
 }
 
-.indicacaoIntro > img{
+.indicacaoIntro>img {
     display: block !important;
     position: absolute;
     top: 12px !important;
     left: 17px !important;
 }
 
-.infoIntroCard{
+.infoIntroCard {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.infoIntroCard h1{
+.infoIntroCard h1 {
     font-size: 1.4rem;
 }
 
-.infoIntroCard p{
+.infoIntroCard p {
     width: 100%;
     height: 100px;
     font-size: clamp(.5rem, 2vw, 1rem);
 }
 
-.linha2 > .cardIntro{
+.linha2>.cardIntro {
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -126,13 +126,38 @@
     cursor: pointer;
 }
 
-.linha2 > .cardIntro:hover{
+.linha2>.cardIntro:hover {
     gap: 50px;
 }
 
-.linha3{
+.linha3 {
     width: 100%;
     height: 100px;
     display: flex;
     border-bottom: 1px solid var(--cor-font-geral);
+}
+
+@media (max-width: 1020px) {
+
+    .linha1>.cardIntroMenor:nth-child(1),
+    .linha2>.cardIntroMenor:nth-child(1),
+    .linha3>.cardIntroMenor:nth-child(1) {
+       display: none;
+    }
+}
+
+@media (max-width: 630px){
+    .linha2,
+    .linha3{
+        display: none;
+    }
+
+    .linha1 .cardIntro:nth-child(1),
+    .linha1 .cardIntro:nth-child(4){
+        display: none;
+    }
+
+    .cardIntroMenor{
+        display: none;
+    }
 }

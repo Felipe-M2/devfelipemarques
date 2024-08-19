@@ -52,6 +52,10 @@ const Topo = () => {
             <div className="nomeLogo">
                 <img src={Nome} alt="" />
             </div>
+
+            <div className="nomeLogoResponsiva">
+                <img src={Nome} alt="" />
+            </div>
         </section>
     )
 }
