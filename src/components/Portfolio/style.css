@@ -1,7 +1,7 @@
 .portfolio{
     background-color: var(--background);
     color: var(--cor-font-geral);
-    padding: 0 99px;
+    padding: 0 100px 0 99px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--cor-font-geral);
@@ -96,7 +96,7 @@
 
 .imgProjeto{
     max-width: 50%;
-    min-width: 500px;
+    width: 600px;
     position: relative;
     border-right: 1px solid var(--cor-font-geral);
     padding: 40px 20px;

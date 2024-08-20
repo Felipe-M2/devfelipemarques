@@ -1,10 +1,8 @@
 import './style.css';
+import './Responsivo.css';
 
 import { useState } from 'react';
 
-import Asset1 from '../../assets/asset1.svg';
-import Asset2 from '../../assets/asset2.svg';
-import Meta from '../../assets/meta.svg';
 import React from '../../assets/react.svg';
 import { IconCloudDemo } from '../Icones';
 
@@ -56,22 +54,7 @@ const Tecnologias = () => {
                     </h1>
                 </div>
 
-                {/* <div className='cardTecnologias'>
-                    <div className="cardTech">
-                        <img className='techImg' src={Meta} alt="Logo da Meta" title='Meta' />
-                    </div>
-                    <div className="cardTech">
-                        <img src={Asset1} alt="" />
-                    </div>
-                    <div className="cardTech">
-                        <img src={Asset2} alt="" />
-                    </div>
-                    <div className="cardTech">
-                        <img className='techImg' src={React} alt="Logo do React, tecnologia usado em desenvolvimento WEB" title='React' />
-                    </div>
-                </div> */}
-
-                <IconCloudDemo />
+                <IconCloudDemo className="iconeComponente" />
             </section>
 
             <section className="infoModelos">

@@ -1,0 +1,28 @@
+@media (max-width: 860px){
+    .tecnologias{
+        max-width: 100%;
+        width: 100%;
+        padding: 20px;
+        gap: 0;
+    }
+
+    .introTecnologias h1{
+        font-size: clamp(.4rem, .6rem, 11.5rem);
+    }
+
+    .infoTecnologias{
+        flex-direction: column;
+    }
+
+    .iconeComponente{
+        max-width: 100% !important;
+    }
+
+    .infoModelos{
+        display: none;
+    }
+
+    .introTecnologias{
+        width: 100%;
+    }
+}

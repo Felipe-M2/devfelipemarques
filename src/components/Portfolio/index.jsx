@@ -1,4 +1,5 @@
 import './style.css';
+import './Responsivo.css'; 
 
 import SvgPortfolio from '../../assets/svgPortfolio.svg';
 import Seta from '../../assets/setaBtnIntro.svg';

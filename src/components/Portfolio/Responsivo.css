@@ -1,0 +1,66 @@
+@media (max-width: 860px) {
+    .portfolio{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .infoProjeto{
+        width: 100%;
+    }
+
+    .nomeProjeto{
+        font-size: 1rem;
+    }
+ 
+    .descricaoProjeto{
+        font-size: clamp(.3rem, .7rem, 1vw);
+    }
+
+    .imgProjeto{
+        max-width: 100%;
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .imgProjeto img{
+        display: none;
+        border: none;
+    }
+
+    .imgCenterProjeto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnProjeto{
+        width: 60%;
+        height: 30px;
+        font-size: clamp(.2rem, .5rem, 1.2rem);
+    }
+
+    .btnProjeto svg{
+        width: 16px;
+        height: 16px;
+    }
+
+    .btnProximoProjeto button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .btnProximoProjeto button svg{
+        width: 16px;
+        height: 16px;
+    }
+
+    .imgCenterProjeto{
+        position: relative;
+        width: 100vw;
+    }
+}

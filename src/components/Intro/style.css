@@ -136,28 +136,3 @@
     display: flex;
     border-bottom: 1px solid var(--cor-font-geral);
 }
-
-@media (max-width: 1020px) {
-
-    .linha1>.cardIntroMenor:nth-child(1),
-    .linha2>.cardIntroMenor:nth-child(1),
-    .linha3>.cardIntroMenor:nth-child(1) {
-       display: none;
-    }
-}
-
-@media (max-width: 630px){
-    .linha2,
-    .linha3{
-        display: none;
-    }
-
-    .linha1 .cardIntro:nth-child(1),
-    .linha1 .cardIntro:nth-child(4){
-        display: none;
-    }
-
-    .cardIntroMenor{
-        display: none;
-    }
-}

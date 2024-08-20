@@ -1,0 +1,25 @@
+@media (max-width: 860px){
+    .sobre{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0 40px;
+    }
+
+    .menuSobre{
+        max-width: 100%;
+    }
+
+    .infoSobre{
+        width: 100%;
+    }
+
+    .secaoSobreInfo{
+        flex-direction: column;
+    }
+
+    .cardInfoSobre{
+        position: initial !important;
+    }
+}

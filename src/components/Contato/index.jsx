@@ -1,4 +1,5 @@
 import './style.css';
+import './Responsivo.css';
 
 import Mar from '../../assets/mar.svg';
 import Globo from '../../assets/globo.svg';

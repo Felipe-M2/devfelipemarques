@@ -1,4 +1,5 @@
 import './style.css';
+import './Responsivo.css';
 
 import Camera from '../../assets/camera.svg';
 

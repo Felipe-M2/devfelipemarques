@@ -66,9 +66,3 @@
 .nomeLogoResponsiva img{
     width: 400px;
 }
-
-@media (max-width: 980px) {
-    .nomeLogoResponsiva{
-        display: block;
-    }
-}

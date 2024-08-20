@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './style.css';
+import './Responsivo.css';
 
 import Background from '../../assets/backgroundTopo.svg';
 import Nome from '../../assets/nome.svg';

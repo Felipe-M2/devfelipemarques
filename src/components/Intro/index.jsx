@@ -1,4 +1,5 @@
 import './style.css';
+import './Responsivo.css';
 
 import Seta from '../../assets/setaBtnIntro.svg';
 import card310 from '../../assets/card310.svg';

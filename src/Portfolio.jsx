@@ -13,13 +13,13 @@ function PortfolioPage() {
 
   return (
     <>
-      <Topo />
+      {/* <Topo />
       <Intro />
       <Portfolio />
-      <Sobre />
+      <Sobre /> */}
       <Tecnologias />
-      <Contato />
-      <Rodape />
+      {/* <Contato />
+      <Rodape /> */}
     </>
   )
 }
