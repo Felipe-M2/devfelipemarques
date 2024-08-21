@@ -1,6 +1,8 @@
 import './App.css';
 import './responsivo.css';
 
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import Topo from './components/Topo';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
@@ -13,6 +15,7 @@ function PortfolioPage() {
 
   return (
     <>
+      <SpeedInsights />
       <Topo />
       <Intro />
       <Portfolio />
