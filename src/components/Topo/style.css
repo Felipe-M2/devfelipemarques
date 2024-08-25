@@ -8,6 +8,11 @@
     background-color: var(--background);
 }
 
+.particulas{
+    min-height: 100vh;
+    position: absolute;
+}
+
 .topo video{
     position: absolute;
     max-width: 100%;

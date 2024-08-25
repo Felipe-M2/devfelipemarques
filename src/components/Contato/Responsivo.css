@@ -1,0 +1,20 @@
+@media (max-width: 950px){
+    .imgContato{
+        display: none;
+    }
+
+    .formContato img{
+        display: none;
+    }
+
+    .linha1Contato div:nth-child(1),
+    .linha2Contato div:nth-child(1),
+    .linha3Contato div:nth-child(1){
+        min-width: 10%;
+    }
+
+    .formSection{
+        align-items: center !important;
+        justify-content: center;
+    }
+}

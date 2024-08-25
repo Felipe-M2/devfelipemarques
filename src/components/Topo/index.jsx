@@ -5,7 +5,6 @@ import './Responsivo.css';
 import Background from '../../assets/backgroundTopo.svg';
 import Nome from '../../assets/nome.svg';
 import Video from '../../assets/videoBack.mp4';
-
 const Topo = () => {
 
     const [hora, setHora] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
@@ -20,8 +19,6 @@ const Topo = () => {
 
     return (
         <section className="topo">
-
-            {/* <img src={Background} alt="" srcset="" /> */}
 
             <video
                 autoPlay
