@@ -14,7 +14,7 @@
     }
  
     .descricaoProjeto{
-        font-size: clamp(.3rem, .7rem, 1vw);
+        font-size: clamp(.5rem, .7rem, 1.4vw);
     }
 
     .imgProjeto{
@@ -27,7 +27,7 @@
         padding: 0;
     }
 
-    .imgProjeto img{
+    .backgroundImgProjeto{
         display: none;
         border: none;
     }
@@ -38,10 +38,14 @@
         align-items: center;
     }
 
+    .imgCenterProjeto img{
+        max-width: 80%;
+    }
+
     .btnProjeto{
         width: 60%;
         height: 30px;
-        font-size: clamp(.2rem, .5rem, 1.2rem);
+        font-size: clamp(.5rem, .7rem, 1.2rem);
     }
 
     .btnProjeto svg{
