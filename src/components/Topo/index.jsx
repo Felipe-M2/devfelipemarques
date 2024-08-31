@@ -5,6 +5,9 @@ import './Responsivo.css';
 import Background from '../../assets/backgroundTopo.svg';
 import Nome from '../../assets/nome.svg';
 import Video from '../../assets/videoBack.mp4';
+import Video2 from '../../assets/background2.mp4';
+import Video3 from '../../assets/background3.mp4';
+import Video4 from '../../assets/background4.mp4';
 const Topo = () => {
 
     const [hora, setHora] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
@@ -20,13 +23,18 @@ const Topo = () => {
     return (
         <section className="topo">
 
+            <div className="nomeLogo">
+                <img src={Nome} alt="" />
+            </div>
+
             <video
                 autoPlay
                 controls={false}
                 muted
                 loop
+                className='videoBackground'
             >
-                <source src={Video} />
+                <source src={Video4} />
             </video>
 
             <div className="menuHora">
@@ -45,14 +53,6 @@ const Topo = () => {
 
             <div className="tituloTopo">
                 <h1>Desenvolvedor de softwares</h1>
-            </div>
-
-            <div className="nomeLogo">
-                <img src={Nome} alt="" />
-            </div>
-
-            <div className="nomeLogoResponsiva">
-                <img src={Nome} alt="" />
             </div>
         </section>
     )

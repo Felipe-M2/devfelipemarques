@@ -13,10 +13,22 @@
     position: absolute;
 }
 
-.topo video{
-    position: absolute;
-    max-width: 100%;
+.nomeLogo{
+    max-width: 100vw;
     width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.videoBackground{
+    min-width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .menuHora{
@@ -50,24 +62,3 @@
     font-size: 2rem;
 }
 
-.nomeLogo{
-    max-width: 100%;
-    width: 100%;
-    position: absolute;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nomeLogoResponsiva{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
-}
-
-.nomeLogoResponsiva img{
-    width: 400px;
-}
